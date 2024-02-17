@@ -5,15 +5,15 @@ export default function Footer()
 {
     const hackerClick=()=>
     {
-        window.open('https://www.hackerrank.com/profile/shweetha_sweety1')
+        window.open('Provide Yours')
     }
     const leetClick=()=>
     {
-        window.open('https://leetcode.com/SHWETHA_K/')
+        window.open('Provide Yours')
     }
     const gitClick=()=>
     {
-        window.open('https://github.com/Shwetha-75')
+        window.open('Provide Yours')
     }
     return(
         <footer className='footer-tag'>
