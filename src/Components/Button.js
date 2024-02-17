@@ -8,12 +8,12 @@ export default function Button()
         //previous i have used 
         //window.location.href="url"-->doesnot worked
         //on click for linked in className=btn1
-        window.open('https://www.linkedin.com/in/shwetha-k-0948ab228/')
+        window.open('Provide Yours')
     } 
     
     const gmail=()=>
     {
-        window.open('mailto:shweetha.sweety17@gmail.com')
+        window.open('Provide Yours')
     }
     return(
         <div className='btn-tag'>
