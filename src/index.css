@@ -1,0 +1,164 @@
+body{
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0);
+    
+}
+img{
+    margin-right:20px;/* to move right side*/
+    margin-left: -25px;/*to move left side*/
+    margin-top:-50px;/*to move upwards*/
+    width:300px;
+
+}
+main{
+
+   background-color:rgba(174, 167, 167, 0.269);
+   padding-top:50%;
+   border-radius: 5px;
+   padding: 70px 70px;
+
+   box-shadow: solid  rgb(37, 42, 40) ;
+   max-width: 250px;
+   height: 950px;
+   margin: 0 auto;
+
+}
+footer {
+    margin-top: 25%;
+    margin-left:-70px;
+    
+    background-color: rgb(8, 8, 8);
+    color:beige;
+    padding: 20px;
+    width:140.2%;
+}
+h1{
+    color:white
+}
+
+.btn-tag{
+    margin-top:10%;
+    display: flex;
+
+
+}
+.btn1-linked{
+    font-size: medium;
+    width: 90%;
+    width:200%;
+    height:205%;
+    border-radius: 12%;
+    margin-left:-25px;
+    border: 0;
+    background-color: rgba(8, 89, 203, 0.998);
+}
+.btn2-gmail{
+    font-size: medium;
+    width: 90%;
+    height:190%;
+    border-radius: 12%;
+    margin-left: 80px;
+    background-color: white;
+    border: 0;
+   
+    color: rgba(208, 4, 4, 0.945);
+}
+.btn2-gmail:active{
+  
+    color: white;
+    background-color: rgb(222, 9, 9);
+
+}
+.btn1-linked:active{
+    color: white;
+    background-color: rgb(10, 133, 247);
+
+}
+.name-tag{
+
+    margin-left:-27px;
+}
+.name-tag >h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size:30px;
+}
+.about-tag{
+    margin-left: -27px;
+    margin-top: 40px;
+    margin-right:-24px;
+
+}
+.about-tag>p{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+    text-align: justify;
+    text-wrap: 20px;
+    /**letter-spacing: 2px;**/
+    word-spacing: 0.1px;
+    line-height: 25px;
+}
+.about-tag>h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:aliceblue;
+
+}
+.skill-tag{
+    margin-left: -27px;
+
+}
+.skill-tag>h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:aliceblue;
+
+}
+.skill-tag>ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 0.1px;
+    line-height: 25px;
+    color:aliceblue;
+}
+.skill-tag>ul>li::marker{
+    list-style: circle;
+
+    color:rgba(13, 176, 216, 0.918)
+}
+#git-btn{
+   background-image: url('./Components/Footer/Git.png') ;
+   background-size: cover;
+   border: 0;
+   border-radius: 12%;
+   width:80px;
+   height: 70px;
+
+
+}
+#leet-btn{
+    margin-left:60px;
+    background-image: url('./Components/Footer/Leet.png') ;
+    background-size: cover;
+    border: 0;
+    border-radius: 12%;
+    width:80px;
+    height: 70px;
+ 
+ 
+ }
+ #hacker-btn{
+    margin-left:50px;
+    background-image: url('./Components/Footer/Hacker.png') ;
+    background-size: cover;
+    border: 0;
+    border-radius: 12%;
+    width:80px;
+    height: 70px;
+ 
+ 
+ }
+ .footer-tag{
+    justify-content: space-between;
+
+ }
