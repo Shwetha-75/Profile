@@ -6,12 +6,7 @@ export default function Skills()
         <div className="skill-tag">
             <h3>Skills</h3>
             <ul>
-                <li>Java Programming Language</li>
-                <li>JDBC</li>
-                <li>Hibernate</li>
-                <li>Spring Boot</li>
-                <li>Html</li>
-                <li>CSS</li>
+               <!---Use List Tag List your skills--->
             </ul>
         </div>
     )
