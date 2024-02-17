@@ -4,7 +4,7 @@ export default function Name()
 {
     return(
         <div className="name-tag">
-            <h1>SHWETHA K</h1>
+            <h1>Your Name Goes Here</h1>
         </div>
     )
 }
